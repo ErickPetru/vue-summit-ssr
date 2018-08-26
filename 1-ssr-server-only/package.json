@@ -1,0 +1,23 @@
+{
+  "name": "vue-summit-ssr-server-only",
+  "version": "1.0.0",
+  "description": "Server-Only Vue with Vue-Server-Renderer",
+  "author": "Erick Eduardo Petrucelli <erick.petrucelli@fatectq.edu.br>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/erickpetru/vue-summit-ssr.git"
+  },
+  "scripts": {
+    "dev": "node ./node_modules/nodemon/bin/nodemon.js -r esm server.js"
+  },
+  "dependencies": {
+    "esm": "^3.0.80",
+    "express": "^4.16.3",
+    "vue": "^2.5.17",
+    "vue-server-renderer": "^2.5.17"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
