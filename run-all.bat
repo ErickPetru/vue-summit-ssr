@@ -1,0 +1,5 @@
+start "Exemplo 1" cmd /c "cd 1-ssr-server-only & npm run dev"
+start "Exemplo 2" cmd /c "cd 2-ssr-not-universal & npm run dev"
+start "Exemplo 3" cmd /c "cd 3-ssr-webpack & npm run dev"
+start "Exemplo 4" cmd /c "cd 4-ssr-webpack-router & npm run dev"
+start "Exemplo 5" cmd /c "cd 5-ssr-nuxt & npm run dev"
