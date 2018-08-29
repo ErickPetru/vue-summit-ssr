@@ -1,3 +1,10 @@
+# Projects dependencies
 node_modules/
+
+# Bundler output
 dist/
 .nuxt/
+
+# Unfinished PowerPoint files
+*.pptx
+\~\$*.pp*x
