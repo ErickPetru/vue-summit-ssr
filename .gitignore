@@ -8,3 +8,6 @@ dist/
 # Unfinished PowerPoint files
 *.pptx
 \~\$*.pp*x
+
+# Editor settings
+.vscode
